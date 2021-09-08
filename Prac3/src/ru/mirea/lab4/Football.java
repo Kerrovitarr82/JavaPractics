@@ -13,7 +13,7 @@ public class Football extends JFrame
     private JButton buttonMad = new JButton("Real Madrid");
     private JLabel labelRes = new JLabel("Result: "+madrid+" X "+milan);
     private JLabel labelLast = new JLabel("Last Scorer: ");
-    private JLabel labelWin = new JLabel("Winner: ");
+    private JLabel labelWin = new JLabel("Winner: Draw");
 
 
     public Football()
@@ -41,6 +41,13 @@ public class Football extends JFrame
         {
             madrid += 1;
             labelRes.setText("Result: "+madrid+" X "+milan);
+            labelLast.setText("Last scorer: Madrid");
+            if (madrid > milan)
+                labelWin.setText("Winner: Madrid");
+            else if (milan > madrid)
+                labelWin.setText("Winner: Milan");
+            else
+                labelWin.setText("Winner: Draw");
         }
     }
 
@@ -50,6 +57,13 @@ public class Football extends JFrame
         {
             milan += 1;
             labelRes.setText("Result: "+madrid+" X "+milan);
+            labelLast.setText("Last scorer: Milan");
+            if (madrid > milan)
+                labelWin.setText("Winner: Madrid");
+            else if (milan > madrid)
+                labelWin.setText("Winner: Milan");
+            else
+                labelWin.setText("Winner: Draw");
         }
     }
 }
