@@ -4,6 +4,10 @@ public class Square extends Rectangle
 {
     protected double side;
 
+    public Square(double side) {
+        this.side = side;
+    }
+
     public Square()
     {
         side = 10;
