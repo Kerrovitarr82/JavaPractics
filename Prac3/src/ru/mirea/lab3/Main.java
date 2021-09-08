@@ -22,12 +22,12 @@ public class Main
 
         //Shape s2 = new Shape(); // Нельзя создавать объект абстрактного класса
 
-        //Shape s3 = new Rectangle(1.0, 2.0, "RED", false); // неверные параметры передаются в конструктор
-        //System.out.println(s3);
-        //System.out.println(s3.getArea());
-        //System.out.println(s3.getPerimeter());
-        //System.out.println(s3.getColor());
-        // System.out.println(s3.getLength()); // В суперклассе нет данного метода, поэтому его и вызвать нельзя
+        Shape s3 = new Rectangle(1.0, 2.0, "RED", false);
+        System.out.println(s3);
+        System.out.println(s3.getArea());
+        System.out.println(s3.getPerimeter());
+        System.out.println(s3.getColor());
+        //System.out.println(s3.getLength()); // В суперклассе нет данного метода, поэтому его и вызвать нельзя
 
         //Rectangle r1 = (Rectangle)s3;
         //System.out.println(r1);
