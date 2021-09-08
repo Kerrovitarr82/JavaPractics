@@ -12,7 +12,7 @@ public class Football extends JFrame
     private JButton buttonMil = new JButton("AC Milan");
     private JButton buttonMad = new JButton("Real Madrid");
     private JLabel labelRes = new JLabel("Result: "+madrid+" X "+milan);
-    private JLabel labelLast = new JLabel("Last Scorer: ");
+    private JLabel labelLast = new JLabel("Last Scorer: N/A");
     private JLabel labelWin = new JLabel("Winner: Draw");
 
 
