@@ -1,4 +1,4 @@
-package ru.mirea.lab3;
+package ru.mirea.practs.lab3;
 import java.lang.*;
 import java.math.*;
 public class Rectangle extends Shape

@@ -1,4 +1,4 @@
-package ru.mirea.lab3.Interfaces;
+package ru.mirea.practs.lab3.Interfaces;
 import java.lang.*;
 
 public class Main

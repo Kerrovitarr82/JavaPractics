@@ -1,4 +1,4 @@
-package ru.mirea.lab3;
+package ru.mirea.practs.lab3;
 import java.lang.*;
 public abstract class Shape
 {
