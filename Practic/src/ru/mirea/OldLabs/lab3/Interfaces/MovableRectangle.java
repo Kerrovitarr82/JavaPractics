@@ -1,4 +1,4 @@
-package ru.mirea.OldLabs.lab3.Interfaces;
+package Practic.src.ru.mirea.OldLabs.lab3.Interfaces;
 import java.lang.*;
 
 public class MovableRectangle implements Movable

@@ -1,4 +1,4 @@
-package ru.mirea.OldLabs.lab4;
+package Practic.src.ru.mirea.OldLabs.lab4;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -9,15 +9,15 @@ public class Football extends JFrame
 {
     int madrid = 0;
     int milan = 0;
-    private JButton buttonMil = new JButton("AC Milan");
-    private JButton buttonMad = new JButton("Real Madrid");
-    private JLabel labelRes = new JLabel("Result: "+madrid+" X "+milan);
-    private JLabel labelLast = new JLabel("Last Scorer: N/A");
-    private JLabel labelWin = new JLabel("Winner: Draw");
+        private JButton buttonMil = new JButton("AC Milan");
+        private JButton buttonMad = new JButton("Real Madrid");
+        private JLabel labelRes = new JLabel("Result: "+madrid+" X "+milan);
+        private JLabel labelLast = new JLabel("Last Scorer: N/A");
+        private JLabel labelWin = new JLabel("Winner: Draw");
 
 
     public Football()
-    {
+        {
         super("Football");
         this.setBounds(200,200,600,300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

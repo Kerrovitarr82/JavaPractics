@@ -1,4 +1,4 @@
-package ru.mirea.task1;
+package Practic.src.ru.mirea.task1;
 import java.lang.*;
 import java.util.Arrays;
 import java.util.Scanner;

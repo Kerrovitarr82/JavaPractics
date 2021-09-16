@@ -1,4 +1,4 @@
-package ru.mirea.OldLabs.lab3;
+package Practic.src.ru.mirea.OldLabs.lab3;
 import java.lang.*;
 public class Main
 {

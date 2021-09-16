@@ -1,4 +1,4 @@
-package ru.mirea.task3;
+package Practic.src.ru.mirea.task3;
 import java.math.*;
 public class Head
 {

@@ -1,4 +1,4 @@
-package ru.mirea.OldLabs.lab4;
+package Practic.src.ru.mirea.OldLabs.lab4;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
