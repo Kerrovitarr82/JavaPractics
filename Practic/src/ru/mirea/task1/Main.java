@@ -47,7 +47,7 @@ public class Main
         s1 = sc.nextLine();
         for (int i = 0; i < s1.length(); i++)
             System.out.print(s1.charAt(i));
-
+        System.out.println();
         double num = 1.0;
         for (int i = 1; i <= 10; i++)
             System.out.print(num/i + " ");

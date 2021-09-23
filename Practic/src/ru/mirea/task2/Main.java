@@ -1,5 +1,5 @@
 package Practic.src.ru.mirea.task2;
-
+import java.util.*;
 public class Main
 {
     public static void main(String[] args)
@@ -17,5 +17,20 @@ public class Main
         Book book = new Book();
         System.out.println(book);
 
+        String name;
+        int age;
+        Scanner scan = new Scanner(System.in);
+        TestDog dog = new TestDog();
+        name = scan.next();
+        while(!(name.equals("stop")))
+        {
+            age = scan.nextInt();
+            Dog d = new Dog(age, name);
+            d.toHumanAge();
+            System.out.println(d.toString());
+            dog.dogAdd(name, age);
+            name = scan.next();
+        }
+        dog.dogsShow();
     }
 }
