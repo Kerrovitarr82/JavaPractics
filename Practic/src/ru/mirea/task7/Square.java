@@ -1,4 +1,4 @@
-package Practic.src.ru.mirea.OldLabs.lab3;
+package Practic.src.ru.mirea.task7;
 
 public class Square extends Rectangle
 {

@@ -1,4 +1,4 @@
-package Practic.src.ru.mirea.OldLabs.lab3;
+package Practic.src.ru.mirea.task7;
 import java.lang.*;
 import java.math.*;
 public class Circle extends Shape
