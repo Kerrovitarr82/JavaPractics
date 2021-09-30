@@ -1,4 +1,4 @@
-package Practic.src.ru.mirea.task8;
+package Practic.src.ru.mirea.task8.animation;
 
 import javax.swing.*;
 
@@ -26,7 +26,7 @@ public class Main extends Animation
                 animImg.repaint();
                 try
                 {
-                    Thread.sleep(30);
+                    Thread.sleep(60);
                 }
                 catch (InterruptedException e)
                 {
