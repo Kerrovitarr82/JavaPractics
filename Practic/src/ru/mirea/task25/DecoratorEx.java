@@ -74,10 +74,10 @@ public class DecoratorEx {
     public static void main(String[] args) {
         Service tea = new Tea("Чай", 200);
         Service cake = new Cake(tea);
-        System.out.println(cake.getPrice());
+        System.out.println("Стоимость чая + пирожка: " + cake.getPrice());
 
         Service coffee = new Coffee("Кофе", 250);
         Service cinnabon = new Cinnabon(coffee);
-        System.out.println(cinnabon.getPrice());
+        System.out.println("Стоимость кофе + синабона: " + cinnabon.getPrice());
     }
 }

@@ -14,16 +14,17 @@ class CurrencyInfo implements Serializable {
 public class SerialEx {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         CurrencyInfo currencyInfo = new CurrencyInfo();
+        System.out.println("Сериализация...");
         FileOutputStream outputStream = new FileOutputStream("save.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
         objectOutputStream.writeObject(currencyInfo);
         objectOutputStream.close();
         currencyInfo = null;
-        System.out.println(currencyInfo);
-
+        System.out.println("currencyInfo: " + currencyInfo);
+        System.out.println("Десериализация...");
         FileInputStream fileInputStream = new FileInputStream("save.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
         currencyInfo = (CurrencyInfo) objectInputStream.readObject();
-        System.out.println(currencyInfo.getCash());
+        System.out.println("Cash: " +currencyInfo.getCash());
     }
 }
